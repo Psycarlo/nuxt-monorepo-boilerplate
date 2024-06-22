@@ -3,8 +3,8 @@ export default defineNuxtConfig({
   modules: ['@nuxt/image', '@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
-      Inter: [400, 500, 600, 700],
-    },
+      Inter: [400, 500, 600, 700]
+    }
   },
-  devtools: { enabled: true },
+  devtools: { enabled: true }
 })

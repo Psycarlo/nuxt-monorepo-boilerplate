@@ -1,4 +1,4 @@
-import { type Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss'
 
 export default (<Partial<Config>>{
   theme: {
@@ -9,14 +9,14 @@ export default (<Partial<Config>>{
           primary: '#302CFB',
 
           light: '#FFFFFF',
-          dark: '#282828',
-        },
+          dark: '#282828'
+        }
       },
       fontFamily: {
         // Define your fonts here
-        brand: ['Inter', 'sans-serif'],
-      },
-    },
+        brand: ['Inter', 'sans-serif']
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 })

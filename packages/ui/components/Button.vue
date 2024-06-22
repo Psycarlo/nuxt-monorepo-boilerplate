@@ -10,8 +10,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, type HTMLAttributes, type AnchorHTMLAttributes } from 'vue'
 import { tv } from 'tailwind-variants'
+import { type AnchorHTMLAttributes, type HTMLAttributes, computed } from 'vue'
 
 type ButtonProps = {
   as?: string
@@ -23,7 +23,7 @@ type ButtonProps = {
 
 const props = withDefaults(defineProps<ButtonProps>(), {
   as: 'button',
-  variant: 'primary',
+  variant: 'primary'
 })
 
 const component = computed(() => {
@@ -37,9 +37,9 @@ const buttonClass = computed(() =>
     variants: {
       variant: {
         primary: 'bg-brand-primary',
-        secondary: 'bg-brand-dark',
-      },
-    },
-  })({ variant: props.variant, class: props.class }),
+        secondary: 'bg-brand-dark'
+      }
+    }
+  })({ variant: props.variant, class: props.class })
 )
 </script>
