@@ -1,5 +1,7 @@
 # Nuxt Monorepo Boilerplate
 
+![banner](images/banner.png)
+
 ## Features
 
 - ⚡️ Nuxt 3, pnpm, turborepo
