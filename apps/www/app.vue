@@ -2,6 +2,7 @@
   <main
     class="flex flex-col gap-2 items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-blue-100"
   >
+    <NuxtImg src="/hero.png" alt="Hero" width="1125" height="375" />
     <Button class="group" href="https://psycarlo.com" target="_blank">
       <span>psycarlo</span>
       <IconAnimatedChevronRight />
