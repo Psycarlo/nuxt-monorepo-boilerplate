@@ -10,9 +10,13 @@
   "packageManager": "pnpm@8.15.1",
   "scripts": {
     "dev": "turbo run dev",
+    "lint": "",
+    "format": "pnpm biome format --write .",
+    "check": "",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.8.2",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "husky": "^9.0.11",
