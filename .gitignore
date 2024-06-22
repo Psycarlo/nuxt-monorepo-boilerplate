@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+
+# Build
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+
+# Turbo
+.turbo
+
+# Logs
+logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Misc
+.DS_Store
+*.pem
+.fleet
+.idea

@@ -1,0 +1,21 @@
+{
+  "name": "@nuxt-monorepo-boilerplate/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "tailwind-variants": "^0.2.1"
+  },
+  "devDependencies": {
+    "@nuxt-monorepo-boilerplate/tailwind-config": "workspace:^",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.0"
+  }
+}
