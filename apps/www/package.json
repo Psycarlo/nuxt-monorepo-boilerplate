@@ -12,12 +12,12 @@
   "dependencies": {
     "@nuxt/image": "^1.8.0",
     "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxt-monorepo-boilerplate/ui": "workspace:^",
     "nuxt": "^3.13.2",
     "vue": "^3.5.8",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
-    "@nuxt-monorepo-boilerplate/tailwind-config": "workspace:^",
-    "@nuxt-monorepo-boilerplate/ui": "workspace:^"
+    "@nuxt-monorepo-boilerplate/tailwind-config": "workspace:^"
   }
 }

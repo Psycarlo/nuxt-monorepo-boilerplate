@@ -16,5 +16,26 @@
       <span>Github</span>
       <IconAnimatedChevronRight />
     </Button>
+    <Select
+      v-model="network"
+      :options="groupedNetworks"
+      groupChildrenKey="items"
+      placeholder="Select a network..."
+      class="w-60"
+    />
   </main>
 </template>
+
+<script setup lang="ts">
+const network = ref()
+const groupedNetworks = ref([
+  { label: 'Layer 1', items: [{ label: 'Bitcoin', value: 'BTC' }] },
+  {
+    label: 'Layer 2',
+    items: [
+      { label: 'Lightning Network', value: 'LN' },
+      { label: 'Liquid Network', value: 'LQN', disabled: true }
+    ]
+  }
+])
+</script>

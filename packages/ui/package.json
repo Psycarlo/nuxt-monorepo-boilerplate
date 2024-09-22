@@ -9,6 +9,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@heroicons/vue": "^2.1.5",
+    "radix-vue": "^1.9.6",
     "tailwind-variants": "^0.2.1"
   },
   "devDependencies": {
