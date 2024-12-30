@@ -5,12 +5,12 @@
 ## Features
 
 - ⚡️ Nuxt 3, pnpm, turborepo
-- 🎨 UI librabry, TailwindCSS, Tailwind Variants & Radix Vue example
+- 🎨 UI library, TailwindCSS, Tailwind Variants & Radix Vue example
 - 🔤 Google fonts
 - 📑 Lint & Format (and lint commit messages)
 - 🖼️ Nuxt image
 
-For more copy & paste vue components, check [psyui](https://psyui.com)
+For copy & paste vue components, check [psyui](https://psyui.com)
 
 ## Getting Started
 
